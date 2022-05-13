@@ -1,13 +1,81 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Spinnaker&display=swap');
+
+/* base styles */
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Spinnaker";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 680px;
+  margin: 0 auto;
+  border-bottom: 1px solid #0ee255;
+}
+.navbar h1 {
+  color: #121db3;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  
+  text-decoration: none;
+  padding: 6px;
+  color:#0ee255;
+  
+
+  /* To center a tag in space
+  margin-left: 16px;
+  letter-spacing: 2px;
+  font-size: 1.8rem;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  */
+  
+
+
+}
+.navbar a:hover {
+  color: #134ac2;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;  
+}
+img{
+  display: outside;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  background-color: #0ee255;
+  color: rgb(39, 11, 197);
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* css code for cute buttons 
+style={{
+  .button1{
+  color: 'white';
+  margin-left: 20px;
+  backgroundColor: '#30c213';
+  borderRadius: '8px';
 }
+  color: 'white',
+  backgroundColor: '#30c213',
+  borderRadius: '8px',
+}}
+*/
