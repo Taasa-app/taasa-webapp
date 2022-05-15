@@ -23,6 +23,7 @@
       "react-app/jest"
     ]
   },
+  "homepage": "https://taasa-app.github.io/taasa-webapp/",
   "browserslist": {
     "production": [
       ">0.2%",
