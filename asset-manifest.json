@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/taasa-webapp/static/css/main.b5313950.css",
+    "main.js": "/taasa-webapp/static/js/main.094a4c1a.js",
+    "static/media/banner.png": "/taasa-webapp/static/media/banner.907124cea1f8e1a2ea10.png",
+    "index.html": "/taasa-webapp/index.html",
+    "main.b5313950.css.map": "/taasa-webapp/static/css/main.b5313950.css.map",
+    "main.094a4c1a.js.map": "/taasa-webapp/static/js/main.094a4c1a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5313950.css",
+    "static/js/main.094a4c1a.js"
+  ]
+}
