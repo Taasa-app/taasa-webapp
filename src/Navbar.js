@@ -9,13 +9,10 @@ const Navbar = () => {
                 <line x1="3" y1="18" x2="21" y2="18"></line>
                 </svg>
             </div>
-            <div className="links">
-                <a href="/">Home</a>
+            <div className="links">                
                 <a href="/about">Features</a>
-                <a href="/contact">Team</a>
+                <a href="/team">Team</a>
                 <a href="/contact">Contact</a>
-                <a href="/contact">Login</a>
-
             </div>
         </nav>
 
