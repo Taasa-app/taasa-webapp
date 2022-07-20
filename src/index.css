@@ -7,12 +7,12 @@
   color: #333;
 }
 .navbar {
-  padding: 20px;
+  padding: 0px;
   display: flex;
   align-items: center;
   max-width: 680px;
   margin: 0 auto;
-  border-bottom: 1px solid #0ee255;
+  border-bottom: 1px solid #08c114;
 }
 .navbar h1 {
   color: #121db3;
@@ -24,7 +24,7 @@
   
   text-decoration: none;
   padding: 6px;
-  color:#0ee255;
+  color:#016832;
   
 
   /* To center a tag in space
@@ -45,9 +45,9 @@
   color: #134ac2;
 }
 .content {
-  max-width: 600px;
-  margin: 40px auto;
-  padding: 30px;  
+  max-width: 690px;
+  margin: 0px auto;
+  padding: 20px;  
 }
 img{
   display: outside;
@@ -56,16 +56,27 @@ img{
 }
 button{
   background-color: #0ee255;
-  color: rgb(39, 11, 197);
+  color: #121db3;
   border: none;
   padding: 10px;
   border-radius: 5px;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 5px;
+  margin-left: 20px;
   
 }
-
+.modal{
+  width: 750px;
+  height: 300px;
+}
+.input,
+input {
+  width: calc(25vw);
+}
+h1 {
+  color: #121db3;
+  font-size: 250%;
+}
 /* css code for cute buttons 
 style={{
   .button1{
@@ -79,3 +90,39 @@ style={{
   borderRadius: '8px',
 }}
 */
+
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: .75rem;
+}
+
+.icon-link > .bi {
+  margin-top: .125rem;
+  margin-left: .125rem;
+  fill: currentcolor;
+  transition: transform .25s ease-in-out;
+}
+.icon-link:hover > .bi {
+  transform: translate(.25rem);
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: .75rem;
+}
+
+.text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
+.text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
+.text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
+
+.card-cover {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+body{
+  min-height: 75rem;
+  padding-top: 4.5rem;
+}
